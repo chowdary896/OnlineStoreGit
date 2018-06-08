@@ -15,6 +15,8 @@ public class SeleniumTest {
 		 
         //Put a Implicit wait, this means that any search for elements on the page could take the time the implicit wait is set for before throwing exception
  
+		
+		
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         //Launch the Online Store Website
